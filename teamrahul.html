@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="team.css">
+  <title>RIE</title>
+</head>
+<body>
+  <img onclick="window.location.href='index.html'" width="100" height="80" class="center" id="LOGO" src="Logo.png" alt="Logo">
+  <h1 onclick="window.location.href='index.html'" id="WRITING">Remote Intercom Extension</h1>
+  <h1 id="HEADER">Team</h1>
+  <div id="WRAPPER">
+    <div onclick="window.location.href='teamtom.html#TOMS'" id="TOM">
+      <img id="TOMIMG" src="PRANJIC.png" alt="PRANJIC">
+      <h3 style="display:inline;color:white;padding-left: 3%;float:left;overflow:hidden">Tom Pranjic</h3>
+      <h3 style="display:inline;color:white;padding-left: 2%;float:left;overflow:hidden">tpranjic@student.tgm.ac.at</h3>
+      <h3 style="display:inline-block; color: white;padding-left: 2%;overflow: hidden;">Server-Deployer</h3>
+    </div><br>
+    <div onclick="window.location.href='teammoksh.html#MOKSHS'" id="MOKSH">
+      <img id="TOMIMG" src="SHARMA.png" alt="SHARMA">
+      <h3 style="display:inline;color:white;padding-left: 3%;float:left;overflow:hidden">Moksh Sharma</h3>
+      <h3 style="display:inline;color:white;padding-left: 2%;float:left;overflow:hidden">msharma@student.tgm.ac.at</h3>
+      <h3 style="display:inline-block; color: white;padding-left: 2%;overflow: hidden;">App-Architect</h3>
+    </div><br>
+    <div onclick="window.location.href='team.html'" id="RAHULS">
+      <img id="TOMIMG" src="TOORA.png" alt="TOORA">
+      <h3 style="display:inline;color:white;padding-left: 3%;float:left;overflow:hidden">Rahul Toora</h3>
+      <h3 style="display:inline;color:white;padding-left: 2%;float:left;overflow:hidden">rtoora@student.tgm.ac.at</h3>
+      <h3 style="display:inline-block; color: white;padding-left: 2%;overflow: hidden;">IoT-Implementer</h3>
+      <div id="INNERTEXT">
+        <br>
+        Rahul Toora übernimmt die Implementierung des IoT-Teils der App, um sie mit modernen Smart-Home-Systemen zu verbinden. Er hat bereits einiges an Erfahrung im Bereich der IoT-Entwicklung und ist daher perfekt für diese Aufgabe geeignet.<br>
+        <br>
+      </div>
+    </div><br>
+    <div onclick="window.location.href='teamdaniel.html#DANIELS'" id="DANIEL">
+      <img id="TOMIMG" src="TRAJKOSKI.png" alt="TRAJKOSKI">
+      <h3 style="display:inline;color:white;padding-left: 3%;float:left;overflow:hidden">Daniel Trajkoski</h3>
+      <h3 style="display:inline;color:white;padding-left: 2%;float:left;overflow:hidden">dtrajkoski@student.tgm.ac.at</h3>
+      <h3 style="display:inline-block; color: white;padding-left: 2%;overflow: hidden;">Hardware-Technician</h3>
+    </div><br>
+    <div onclick="window.location.href='teamflorian.html#FLORIANS'" id="FLORIAN">
+      <img id="TOMIMG" src="WUGEDITSCH.png" alt="WUGEDITSCH">
+      <h3 style="display:inline;color:white;padding-left: 3%;float:left;overflow:hidden">Florian Wugeditsch</h3>
+      <h3 style="display:inline;color:white;padding-left: 2%;float:left;overflow:hidden">fwugeditsch@student.tgm.ac.at</h3>
+      <h3 style="display:inline-block; color: white;padding-left: 2%;overflow: hidden;">Software-Developer</h3>
+    </div>
+  </div>
+  <footer style="text-align:center; margin-top:10px; color:white; font-family: Arial, Helvetica, sans-serif;">
+    Diplomarbeit von Tom Pranjic, Moksh Sharma, Rahul Toora, Daniel Trajkoski, Florian Wugeditsch
+  </footer>
+  <script>
+
+  document.getElementById('TOM').addEventListener('mousemove', ()=>{document.getElementById('TOM').style.borderStyle="solid";});
+  document.getElementById('TOM').addEventListener('mouseout', ()=>{document.getElementById('TOM').style.borderStyle="hidden";});
+  document.getElementById('MOKSH').addEventListener('mousemove', ()=>{document.getElementById('MOKSH').style.borderStyle="solid";});
+  document.getElementById('MOKSH').addEventListener('mouseout', ()=>{document.getElementById('MOKSH').style.borderStyle="hidden";});
+  document.getElementById('RAHULS').addEventListener('mousemove', ()=>{document.getElementById('RAHULS').style.borderStyle="solid";});
+  document.getElementById('RAHULS').addEventListener('mouseout', ()=>{document.getElementById('RAHULS').style.borderStyle="hidden";});
+  document.getElementById('DANIEL').addEventListener('mousemove', ()=>{document.getElementById('DANIEL').style.borderStyle="solid";});
+  document.getElementById('DANIEL').addEventListener('mouseout', ()=>{document.getElementById('DANIEL').style.borderStyle="hidden";});
+  document.getElementById('FLORIAN').addEventListener('mousemove', ()=>{document.getElementById('FLORIAN').style.borderStyle="solid";});
+  document.getElementById('FLORIAN').addEventListener('mouseout', ()=>{document.getElementById('FLORIAN').style.borderStyle="hidden";});
+
+  </script>
+</body>
+</html>

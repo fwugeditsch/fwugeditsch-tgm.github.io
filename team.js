@@ -1,0 +1,10 @@
+document.getElementById('TOM').addEventListener('mousemove', ()=>{document.getElementById('TOM').style.borderStyle="solid";});
+document.getElementById('TOM').addEventListener('mouseout', ()=>{document.getElementById('TOM').style.borderStyle="hidden";});
+document.getElementById('MOKSH').addEventListener('mousemove', ()=>{document.getElementById('MOKSH').style.borderStyle="solid";});
+document.getElementById('MOKSH').addEventListener('mouseout', ()=>{document.getElementById('MOKSH').style.borderStyle="hidden";});
+document.getElementById('RAHUL').addEventListener('mousemove', ()=>{document.getElementById('RAHUL').style.borderStyle="solid";});
+document.getElementById('RAHUL').addEventListener('mouseout', ()=>{document.getElementById('RAHUL').style.borderStyle="hidden";});
+document.getElementById('DANIEL').addEventListener('mousemove', ()=>{document.getElementById('DANIEL').style.borderStyle="solid";});
+document.getElementById('DANIEL').addEventListener('mouseout', ()=>{document.getElementById('DANIEL').style.borderStyle="hidden";});
+document.getElementById('FLORIAN').addEventListener('mousemove', ()=>{document.getElementById('FLORIAN').style.borderStyle="solid";});
+document.getElementById('FLORIAN').addEventListener('mouseout', ()=>{document.getElementById('FLORIAN').style.borderStyle="hidden";});

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="fortschritt.css">
+  <title>RIE</title>
+</head>
+<body>
+  <img onclick="window.location.href='index.html'" width="100" height="80" class="center" id="LOGO" src="Logo.png" alt="Logo">
+  <h1 onclick="window.location.href='index.html'" id="WRITING">Remote Intercom Extension</h1>
+  <h1 id="HEADER">Fortschritt</h1>
+  <div id="FORTSCHRITT">
+    <div class="heading">
+      <h1>Software-Entwicklung</h1>
+    </div>
+    <div style="border-radius: 20px; color:azure">
+      Dieses Projekt umfasst die Software-Entwicklung für einen Mikrocontroller zur Interaktion mit der Gegensprechanlage und dem Endgerät.<br>
+      Zur Realisierung gehören Aufgaben wie:<br>
+      <ul>
+        <li>Das vollständige Aufsetzen des Betriebssystems des Mikrocontrollers</li>
+        <li>Eine Funktion, die das Ändern des WLAN-Netzwerks des Geräts über ein Smartphone oder anderes WLAN-fähiges Gerät ermöglicht</li>
+        <li>Die Implementation einer REST-Schnittstelle zum verwendeten Server, um simple Kommunikation zu ermöglichen</li>
+        <li>Die Entwicklung eines WebRTC-Clients zur Kommunikation zwischen Gegensprechanlage und Endgerät</li>
+        <li>Die Datenverarbeitung der von der Gegensprechanlage ein-, und ausgehenden Signale</li>
+      </ul>Bereits realisiert wurde:<br>
+      <ul>
+        <li>Das Aufsetzen des Betriebssystems des Mikrocontrollers</li>
+        <li>Eine Funktion, die das Ändern des WLAN-Netzwerks des Geräts durch einen Access-Point über ein Smartphone oder anderes WLAN-fähiges Gerät ermöglicht</li>
+        <li>Eine noch nicht voll funktionsfähige REST-Schnittstelle für den Datenverkehr von Benutzerdaten und Signalen des Endgeräts</li>
+        <li>Ein noch nicht vollständig getesteter WebRTC-Client zur Audio-Kommunikation</li>
+      </ul>
+    </div>
+  </div>
+  <div id="FORTSCHRITT">
+    <div class="heading">
+      <h1>Server-Deployment</h1>
+    </div>
+    <div style="border-radius: 20px;color:azure">
+      Dieses Projekt umfasst die Server-Entwicklung für die Schnittstelle zwischen Mikrocontroller und Mobile-App, als auch das Signaling zur Realisierung von WebRTC, welches zur Sprachkommunikation verwendet wird.<br>
+      Zur Realisierung gehören Aufgaben wie:<br>
+      <ul>
+        <li>Erstellung einer User-API, welche zur Authentifizierung genutzt wird.</li>
+        <li>Erstellung eines Websocket-Servers, welcher für das Signaling von WebRTC genutzt wird.</li>
+        <li>Implementierung einer Schnittstelle zwischen Mikrocontroller und Mobile-App.</li>
+      </ul>Bereits realisiert wurde:<br>
+      <ul>
+        <li>User-API</li>
+        <li>Schnittstelle zwischen Mikrocontroller und Mobile-App</li>
+        <li>WebRTC Kommunikation</li>
+      </ul>
+    </div>
+  </div>
+  <div id="FORTSCHRITT">
+    <div class="heading">
+      <h1>Mobile-App-Entwicklung</h1>
+    </div>
+    <div style="border-radius: 20px;color:azure">
+      Dieses Projekt umfasst die Mobil-App-Entwicklung für die Schnittstelle zwischen User und Mikrocontroller.<br>
+      Zur Realisierung gehören Aufgaben wie:<br>
+      <ul>
+        <li>Gestalten einer userfreundlichen Benutzeroberfläche</li>
+        <li>W-Lan Kommunikation mit dem Mirkocontroller ermöglichen</li>
+        <li>Code für die WebRTC Anbindung implementieren</li>
+        <li>REST Kommunikation mit der Gegensprechanlage ermöglichen</li>
+      </ul>Bereits realisiert wurde:<br>
+      <ul>
+        <li>Recherche über Frameworks/Sprachen für die plattformübergreifende Programmierung</li>
+        <li>Designing des User-Interface</li>
+        <li>Start der Umsetzung des User-Inface</li>
+        <li>Programmierung der Hauptfunktionen</li>
+      </ul>
+    </div>
+  </div>
+  <div id="FORTSCHRITT">
+    <div class="heading">
+      <h1>Hardware-Entwicklung</h1>
+    </div>
+    <div style="border-radius: 20px;color:azure">
+      Dieses Projekt umfasst die Recherche zu den verschiedenen Normen der gängigsten Gegensprechanlagen, wie auch das Entwickeln der Extension.<br>
+      <br>
+      Zur Realisierung gehören die Aufgaben:<br>
+      <ul>
+        <li>Recherche zu den effizientesten Realisierungsmöglichkeiten</li>
+        <li>Aufbau der Extension nach dem besten Schaltplan</li>
+        <li>Einbau des Endgerätes in die Gegensprechanlage</li>
+      </ul>Bereits realisiert wurde:<br>
+      <ul>
+        <li>Recherche zu den Gegensprechanlagen verkabelungsmöglichkeiten</li>
+        <li>Schaltplan des Prototyp-Modells</li>
+        <li>SOTA Einführung</li>
+      </ul>
+    </div>
+  </div>
+  <div id="FORTSCHRITT">
+    <div class="heading">
+      <h1>IoT-Implementierung</h1>
+    </div>
+    <div style="border-radius: 20px;color:azure">
+      Dieses Projekt umfasst die Recherce von verschiedenen Smart-Home-Systemen und Anbindung von den geeignetsten an unser System (z.B. Alexa).<br>
+      Zur Realisierung gehören Aufgaben wie:<br>
+      <ul>
+        <li>Recherce der Smart-Home-Systeme</li>
+        <li>Implementierung des Codes für die verschieden Smart-Home-Systeme</li>
+        <li>Türklingel erkennen</li>
+        <li>Türöffnen realisieren</li>
+        <li>Script zum Führen eines Anrufs</li>
+        <li>Anbindung an das rechtliche Projekt</li>
+      </ul>Bereits realisiert wurde:<br>
+      <ul>
+        <li>Recherce von verschiedenen Smart-Home-Systemen</li>
+        <li>Implementierung des Codes im Gange</li>
+        <li>SOTA angefangen</li>
+        <li>Recherce welche Smart Home Systeme verwendet werden</li>
+        <li>Implementierung mit Alexa begonnen</li>
+      </ul>
+    </div>
+  </div>
+  <footer style="text-align:center; margin-top:10px; color:white; font-family: Arial, Helvetica, sans-serif;">
+    Diplomarbeit von Tom Pranjic, Moksh Sharma, Rahul Toora, Daniel Trajkoski, Florian Wugeditsch
+  </footer>
+  <script src="team.js"></script>
+</body>
+</html>

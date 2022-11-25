@@ -1,0 +1,9 @@
+document.getElementById('TEAM').addEventListener('click', ()=>{window.location.href = "team.html"});
+document.getElementById('AUFGABE').addEventListener('click', ()=>{window.location.href = "aufgabe.html"});
+document.getElementById('FORTSCHRITT').addEventListener('click', ()=>{window.location.href = "fortschritt.html"});
+document.getElementById('TEAM').addEventListener('mousemove', ()=>{document.getElementById('TEAM').style.color = "lightblue";document.getElementById('TEAM').style.textDecoration = "underline";document.getElementById('TEAM').style.borderStyle = "solid";});
+document.getElementById('AUFGABE').addEventListener('mousemove', ()=>{document.getElementById('AUFGABE').style.color = "lightblue";document.getElementById('AUFGABE').style.textDecoration = "underline";document.getElementById('AUFGABE').style.borderStyle = "solid";});
+document.getElementById('FORTSCHRITT').addEventListener('mousemove', ()=>{document.getElementById('FORTSCHRITT').style.color = "lightblue";document.getElementById('FORTSCHRITT').style.textDecoration = "underline";document.getElementById('FORTSCHRITT').style.borderStyle = "solid";});
+document.getElementById('TEAM').addEventListener('mouseout', ()=>{document.getElementById('TEAM').style.color = "white";document.getElementById('TEAM').style.textDecoration = "none";document.getElementById('TEAM').style.borderStyle = "hidden";});
+document.getElementById('AUFGABE').addEventListener('mouseout', ()=>{document.getElementById('AUFGABE').style.color = "white";document.getElementById('AUFGABE').style.textDecoration = "none";document.getElementById('AUFGABE').style.borderStyle = "hidden";});
+document.getElementById('FORTSCHRITT').addEventListener('mouseout', ()=>{document.getElementById('FORTSCHRITT').style.color = "white";document.getElementById('FORTSCHRITT').style.textDecoration = "none";document.getElementById('FORTSCHRITT').style.borderStyle = "hidden";});

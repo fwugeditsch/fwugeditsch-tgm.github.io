@@ -1,80 +1,69 @@
-body {
-  background-color: black;
-  background-image: url('Background.png');
-  background-position: center center;
-  background-attachment: fixed;
+body{
+    background-color: black;
+    background-image: url('Background.png');
+    background-position: center;
+    background-attachment: fixed;
 }
-.container{
-  overflow-y: scroll;
-  margin-top:10px;
-  max-height: 80vh;
-  scroll-snap-type: mandatory;
-  scroll-snap-type: y mandatory;
+#WRITING{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
 }
-h1 {
-  color: rgb(230, 232, 245);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin:0;
+#LOGO{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-h4 {
-  color: rgb(230, 232, 245);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  margin:0;
-}
-#AUFGABE{
-  scroll-snap-align: start;
-  background-color: rgba(0,0,0,0.7);
-  border-radius: 15px;
-  font-size: 2vw;
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  height: 79vh;
-  
+#WRAPPER{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 #TEAM{
-  scroll-snap-align: start;
-  background-color: rgba(0,0,0,0.7);
-  border-radius: 15px;
-  font-size: 2vw;
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  height: 79vh;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    font-size: 2vw;
+    border-color: lightblue;
+    width: 25%;
+    padding-bottom: 45%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1vw;
+    float:left
 }
+#AUFGABE{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    border-color: lightblue;
+    font-size: 2vw;
+    width: 25%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    padding-bottom: 45%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1vw;
+    float:left;
+}
+
 #FORTSCHRITT{
-  scroll-snap-align: start;
-  background-color: rgba(0,0,0,0.7);
-  border-radius: 15px;
-  font-size: 2vw;
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  height: 179vh;
-}
-footer{
-  color: gray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1vw;
-  text-align: center;
-  position: fixed;
-  bottom:0px;
-  left: 25%;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-p{
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
-  font-size: 1vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    border-color: lightblue;
+    font-size: 2vw;
+    width: 25%;
+    margin-top: 1.5%;
+    padding-bottom: 45%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1vw;
+    overflow: hidden;
 }
