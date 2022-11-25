@@ -8,7 +8,7 @@ body{
     scroll-snap-align: start;
     background-color: rgba(0,0,0,0.7);
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 3vh;
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
@@ -31,7 +31,7 @@ body{
   color: #fff;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font: 30px/32px 'Roboto', sans-serif;
+  font: 4vh 'Roboto', sans-serif;
     padding: 20px 0;;
     background: url(../images/border.png) no-repeat center;
 }
