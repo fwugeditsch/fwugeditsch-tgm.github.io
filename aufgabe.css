@@ -36,11 +36,13 @@ body{
     background-color: rgba(0,0,0,0.7);
     border-radius: 15px;
     font-size: 2vw;
+    font-size: auto;
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    height: 68vh;
+    height: auto;
+    min-height: 68vh;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
