@@ -36,6 +36,8 @@ body{
 }
 #TEAM{
     border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     font-size: 2vw;
     border-color: lightblue;
     width: 25%;
@@ -51,6 +53,8 @@ body{
 }
 #AUFGABE{
     border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     border-color: lightblue;
     font-size: 2vw;
     width: 25%;
@@ -66,6 +70,8 @@ body{
 
 #FORTSCHRITT{
     border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     border-color: lightblue;
     font-size: 2vw;
     width: 25%;
