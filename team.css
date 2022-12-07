@@ -1,9 +1,22 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+canvas{
+    background-color: #000;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+
 body{
     background-color: black;
-    background-image: url('Background.png');
     background-position: center;
     background-attachment: fixed;
 }
+
 #WRITING{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -16,158 +29,54 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-#HEADER{
-    font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-
-}
 #WRAPPER{
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-#INNERBOX{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 5vw;
-    border-color: lightblue;
+#TEAM{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     font-size: 2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: 25%;
+    padding-bottom: 40%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
     color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 30vw;
+    height: 1vw;
+    float:left
 }
-#TOM{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
+#AUFGABE{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 25%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    padding-bottom: 40%;
     color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 6vw;
+    height: 1vw;
+    float:left;
 }
-#TOMS{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
+
+#FORTSCHRITT{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: transparent;
     font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 25%;
+    margin-top: 1.5%;
+    padding-bottom: 40%;
     color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-}
-#INNERTEXT{
-    border-color: lightblue;
-    font-size: 1.5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 0px;
-}
-#MOKSH{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 6vw;
-}
-#MOKSHS{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-}
-#RAHUL{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 6vw;
-}
-#RAHULS{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-}
-#DANIEL{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 6vw;
-}
-#DANIELS{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-}
-#FLORIAN{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 6vw;
-}
-#FLORIANS{
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 7vw;
-    border-color: lightblue;
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-}
-#TOMIMG{    
-    width: 6vw;
-    height: 6vw;    
-    float: left;
-}
-h3{
-    font-size: 1.8vw;
-}
-.container{
-    font-size: 1.5vw;
+    height: 1vw;
+    overflow: hidden;
 }
