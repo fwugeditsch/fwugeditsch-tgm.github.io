@@ -39,7 +39,6 @@ body{
     border-style: solid;
     border-color: transparent;
     font-size: 2vw;
-    border-color: lightblue;
     width: 25%;
     padding-bottom: 40%;
     margin-left: 10%;
@@ -55,7 +54,6 @@ body{
     border-radius: 15px;
     border-style: solid;
     border-color: transparent;
-    border-color: lightblue;
     font-size: 2vw;
     width: 25%;
     margin-right: 2.5%;
@@ -72,7 +70,6 @@ body{
     border-radius: 15px;
     border-style: solid;
     border-color: transparent;
-    border-color: lightblue;
     font-size: 2vw;
     width: 25%;
     margin-top: 1.5%;
