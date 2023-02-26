@@ -25,14 +25,14 @@
         <li>Die Implementation einer WebSocket-Schnittstelle zum verwendeten Server, um simple Kommunikation zu ermöglichen</li>
         <li>Die Entwicklung eines WebRTC-Clients zur Kommunikation zwischen Gegensprechanlage und Endgerät</li>
         <li>Die Datenverarbeitung der von der Gegensprechanlage ein-, und ausgehenden Signale</li>
-      </ul>Bereits realisiert wurde:<br>
+      </ul>Bereits realisiert wurde (Stand 28.02.2023):<br>
       <ul>
         <li>Das Aufsetzen des Betriebssystems des Mikrocontrollers (Raspberry Pi Zero W und 3 Model B)</li>
         <li>Eine Funktion, die das Ändern des WLAN-Netzwerks des Geräts durch einen Access-Point über ein Smartphone oder anderes WLAN-fähiges Gerät ermöglicht</li>
         <li>Eine funktionsfähige REST-Schnittstelle für den Benutzer-Login bei unserem Server</li>
         <li>Ein funktionsfähiger WebSocket-Client zum Datenaustausch mit dem Server</li>
-        <li>Eine Funktion zum Öffnen der Eingangstüre die Websocket-Schnittstelle</li>
-        <li>Ein noch nicht vollständig getesteter WebRTC-Client zur Audio-Kommunikation</li>
+        <li>Eine Funktion zum Öffnen der Eingangstüre über die Websocket-Schnittstelle</li>
+        <li>Ein WebRTC-Client ohne funktionsfähige Audioübertragung (Update 19.02.2023)</li>
       </ul>
     </div>
   </div>
@@ -44,14 +44,16 @@
       Dieses Projekt umfasst die Server-Entwicklung für die Schnittstelle zwischen Mikrocontroller und Mobile-App, als auch das Signaling zur Realisierung von WebRTC, welches zur Sprachkommunikation verwendet wird.<br>
       Zur Realisierung gehören Aufgaben wie:<br>
       <ul>
-        <li>Erstellung einer User-API, welche zur Authentifizierung genutzt wird.</li>
-        <li>Erstellung eines Websocket-Servers, welcher für das Signaling von WebRTC genutzt wird.</li>
-        <li>Implementierung einer Schnittstelle zwischen Mikrocontroller und Mobile-App.</li>
-      </ul>Bereits realisiert wurde:<br>
+        <li>Erstellung einer User-API, welche zur Authentifizierung genutzt wird</li>
+        <li>Erstellung eines Websocket-Servers, welcher für das Signaling von WebRTC genutzt wird</li>
+        <li>Implementierung einer Schnittstelle zwischen Mikrocontroller und Mobile-App</li>
+		<li>OAuth 2.0 Anbindung für die Einbindung von Amazon Alexa</li>
+      </ul>Bereits realisiert wurde (Stand 28.02.2023):<br>
       <ul>
         <li>User-API</li>
-        <li>Schnittstelle zwischen Mikrocontroller und Mobile-App</li>
-        <li>WebRTC Kommunikation</li>
+        <li>REST- und Websocket-Schnittstelle zwischen Mikrocontroller und Mobile-App</li>
+        <li>WebRTC-Signalling</li>
+		<li>OAuth 2.0 Anbindung fertiggestellt (Update 20.02.2023)</li>
       </ul>
     </div>
   </div>
@@ -64,15 +66,18 @@
       Zur Realisierung gehören Aufgaben wie:<br>
       <ul>
         <li>Gestalten einer userfreundlichen Benutzeroberfläche</li>
-        <li>W-Lan Kommunikation mit dem Mirkocontroller ermöglichen</li>
+        <li>W-Lan Kommunikation mit dem Mikrocontroller ermöglichen</li>
         <li>Code für die WebRTC Anbindung implementieren</li>
-        <li>REST Kommunikation mit der Gegensprechanlage ermöglichen</li>
-      </ul>Bereits realisiert wurde:<br>
+        <li>REST- und Websocket-Kommunikation mit der Gegensprechanlage ermöglichen</li>
+      </ul>Bereits realisiert wurde (Stand 28.02.2023):<br>
       <ul>
         <li>Recherche über Frameworks/Sprachen für die plattformübergreifende Programmierung</li>
-        <li>Designing des User-Interface</li>
-        <li>Start der Umsetzung des User-Inface</li>
-        <li>Programmierung der Hauptfunktionen</li>
+        <li>iOS Implementierung des Design</li>
+		<li>iOS Implementierung der WebRTC-Anbindung (19.02.2023)</li>
+		<li>iOS Implementierung der Websocket-Anbindung</li>
+		<li>iOS UI Hauptfunktionen (Update 20.02.2023)</li>
+		<li>iOS lokale Kommunikation (Update 20.02.2023</li>
+		<li>Android-Projekt angelegt (Update 26.02.2023)</li>
       </ul>
     </div>
   </div>
@@ -87,13 +92,16 @@
       <ul>
         <li>Recherche zu den effizientesten Realisierungsmöglichkeiten</li>
         <li>Aufbau der Extension nach dem besten Schaltplan</li>
+		<li>Signalmessung und Reproduktion durch Mikrocontroller</li>
         <li>Einbau des Endgerätes in die Gegensprechanlage</li>
         <li>Softwareseitige Audioverarbeitung</li>
-      </ul>Bereits realisiert wurde:<br>
+      </ul>Bereits realisiert wurde (Stand 28.02.2023):<br>
       <ul>
-        <li>Recherche zu den Gegensprechanlagen verkabelungsmöglichkeiten</li>
+        <li>Recherche zu den Gegensprechanlagen & Schaltplänen</li>
         <li>Schaltplan des Prototyp-Modells</li>
-        <li>SOTA weitergeführt</li>
+        <li>SOTA erledigt (22.02.2023)</li>
+		<li>Konzept fast vollständig (22.02.2023)</li>
+		<li>Implementierung anstehend (24.02.2023)</li>
       </ul>
     </div>
   </div>
@@ -105,19 +113,19 @@
       Dieses Projekt umfasst die Recherce von verschiedenen Smart-Home-Systemen und Anbindung von den geeignetsten an unser System (z.B. Alexa).<br>
       Zur Realisierung gehören Aufgaben wie:<br>
       <ul>
-        <li>Recherce der Smart-Home-Systeme</li>
-        <li>Implementierung des Codes für die verschieden Smart-Home-Systeme</li>
+        <li>Recherche der Smart-Home-Systeme</li>
+        <li>Implementierung des Codes für die verschiedenen Smart-Home-Systeme</li>
         <li>Türklingel erkennen</li>
-        <li>Türöffnen realisieren</li>
+        <li>Türöffner realisieren</li>
         <li>Script zum Führen eines Anrufs</li>
         <li>Anbindung an das rechtliche Projekt</li>
-      </ul>Bereits realisiert wurde:<br>
+      </ul>Bereits realisiert wurde (Stand 28.02.2023):<br>
       <ul>
         <li>Recherce von verschiedenen Smart-Home-Systemen</li>
-        <li>Implementierung des Codes im Gange</li>
-        <li>SOTA weitergeschrieben</li>
-        <li>Recherce welche Smart Home Systeme verwendet werden</li>
-        <li>Implementierung mit Alexa begonnen</li>
+        <li>SOTA fast fertiggestellt</li>
+		<li>Implementierung des Codes für Amazon Alexa und Google Home in Arbeit</li>
+		<li>Türöffner-Funktion</li>
+		<li>Authentifizierung mittels OAuth 2.0 (Update 24.02.2023)</li>
       </ul>
     </div>
   </div>
